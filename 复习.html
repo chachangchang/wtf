@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Ypk</title>
+	<link rel="stylesheet" href="../css/reset.css">
+	<link rel="stylesheet" href="../css/index.css">
+</head>
+<body>
+	<div class="wrap"></div>
+	<script type="text/javascript">
+		// var a = 1;
+		// function show(){
+		// 	b=2;
+		// 	console.log(a);
+		// 	console.log(b);
+		// }
+		// show();
+		// console.log(a);
+		// console.log(b);
+
+		// var a = 8;
+		// switch(a){
+		// 	case 1: console.log("周一");
+		// 	break;
+		// 	case 2: console.log("周二");
+		// 	break;
+		// 	default:console.log("显示错误");
+		// 	break;
+		// }
+
+		function show(){
+			var i=1;
+			return function(){
+				i++;
+				console.log(i);
+			}
+		}
+		var text = show();
+		text();
+		text();
+	</script>
+</body>
+</html>
